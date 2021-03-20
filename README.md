@@ -5,11 +5,17 @@ mysql 数据库连接池
 
 
 作者：shenmingik
+
 邮箱：2107810343@qq.com
+
 时间：2021/3/20 13:00
+
 开发环境：Ubuntu VS Code
+
 编译器：g++
+
 编程语言：C++
+
 源码链接：
 [微云链接](https://share.weiyun.com/XMDiXdsF)
 
