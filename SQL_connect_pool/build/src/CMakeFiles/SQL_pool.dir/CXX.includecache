@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/connect.hpp
+string
+-
+mysql/mysql.h
+-
+
+../include/connect_pool.hpp
+string
+-
+queue
+-
+mutex
+-
+connect.hpp
+../include/connect.hpp
+
+../include/public.hpp
+iostream
+-
+
+/home/ik/桌面/SQL_connect_pool/src/connect.cpp
+public.hpp
+/home/ik/桌面/SQL_connect_pool/src/public.hpp
+connect.hpp
+/home/ik/桌面/SQL_connect_pool/src/connect.hpp
+
+/home/ik/桌面/SQL_connect_pool/src/connect_pool.cpp
+connect_pool.hpp
+/home/ik/桌面/SQL_connect_pool/src/connect_pool.hpp
+public.hpp
+/home/ik/桌面/SQL_connect_pool/src/public.hpp
+
+/home/ik/桌面/SQL_connect_pool/src/main.cpp
+connect_pool.hpp
+/home/ik/桌面/SQL_connect_pool/src/connect_pool.hpp
+
