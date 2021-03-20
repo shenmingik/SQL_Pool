@@ -35,6 +35,7 @@ mysql 数据库连接池
 另外，在高峰期创建了很多连接，但是在高峰期过后就用不上了，这些连接肯定需要一个线程去将其**释放**。
 
 整个连接池内部已经呼之欲出了：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210320124652445.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NoZW5taW5neHVlSVQ=,size_16,color_FFFFFF,t_70)
 # 连接池的使用 Demo
 
