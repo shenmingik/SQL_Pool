@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ik/桌面/SQL_connect_pool
+CMAKE_SOURCE_DIR = /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ik/桌面/SQL_connect_pool/build
+CMAKE_BINARY_DIR = /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/Pool.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/Pool.dir/flags.make
 
 src/CMakeFiles/Pool.dir/connect.cpp.o: src/CMakeFiles/Pool.dir/flags.make
 src/CMakeFiles/Pool.dir/connect.cpp.o: ../src/connect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ik/桌面/SQL_connect_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Pool.dir/connect.cpp.o"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pool.dir/connect.cpp.o -c /home/ik/桌面/SQL_connect_pool/src/connect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/Pool.dir/connect.cpp.o"
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pool.dir/connect.cpp.o -c /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src/connect.cpp
 
 src/CMakeFiles/Pool.dir/connect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pool.dir/connect.cpp.i"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ik/桌面/SQL_connect_pool/src/connect.cpp > CMakeFiles/Pool.dir/connect.cpp.i
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src/connect.cpp > CMakeFiles/Pool.dir/connect.cpp.i
 
 src/CMakeFiles/Pool.dir/connect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pool.dir/connect.cpp.s"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ik/桌面/SQL_connect_pool/src/connect.cpp -o CMakeFiles/Pool.dir/connect.cpp.s
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src/connect.cpp -o CMakeFiles/Pool.dir/connect.cpp.s
 
 src/CMakeFiles/Pool.dir/connect.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/Pool.dir/connect.cpp.o.provides.build: src/CMakeFiles/Pool.dir/co
 
 src/CMakeFiles/Pool.dir/connect_pool.cpp.o: src/CMakeFiles/Pool.dir/flags.make
 src/CMakeFiles/Pool.dir/connect_pool.cpp.o: ../src/connect_pool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ik/桌面/SQL_connect_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Pool.dir/connect_pool.cpp.o"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pool.dir/connect_pool.cpp.o -c /home/ik/桌面/SQL_connect_pool/src/connect_pool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/Pool.dir/connect_pool.cpp.o"
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pool.dir/connect_pool.cpp.o -c /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src/connect_pool.cpp
 
 src/CMakeFiles/Pool.dir/connect_pool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pool.dir/connect_pool.cpp.i"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ik/桌面/SQL_connect_pool/src/connect_pool.cpp > CMakeFiles/Pool.dir/connect_pool.cpp.i
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src/connect_pool.cpp > CMakeFiles/Pool.dir/connect_pool.cpp.i
 
 src/CMakeFiles/Pool.dir/connect_pool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pool.dir/connect_pool.cpp.s"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ik/桌面/SQL_connect_pool/src/connect_pool.cpp -o CMakeFiles/Pool.dir/connect_pool.cpp.s
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src/connect_pool.cpp -o CMakeFiles/Pool.dir/connect_pool.cpp.s
 
 src/CMakeFiles/Pool.dir/connect_pool.cpp.o.requires:
 
@@ -105,46 +105,20 @@ src/CMakeFiles/Pool.dir/connect_pool.cpp.o.provides: src/CMakeFiles/Pool.dir/con
 src/CMakeFiles/Pool.dir/connect_pool.cpp.o.provides.build: src/CMakeFiles/Pool.dir/connect_pool.cpp.o
 
 
-src/CMakeFiles/Pool.dir/main.cpp.o: src/CMakeFiles/Pool.dir/flags.make
-src/CMakeFiles/Pool.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ik/桌面/SQL_connect_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/Pool.dir/main.cpp.o"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pool.dir/main.cpp.o -c /home/ik/桌面/SQL_connect_pool/src/main.cpp
-
-src/CMakeFiles/Pool.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pool.dir/main.cpp.i"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ik/桌面/SQL_connect_pool/src/main.cpp > CMakeFiles/Pool.dir/main.cpp.i
-
-src/CMakeFiles/Pool.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pool.dir/main.cpp.s"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && /usr/bin/g++-7 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ik/桌面/SQL_connect_pool/src/main.cpp -o CMakeFiles/Pool.dir/main.cpp.s
-
-src/CMakeFiles/Pool.dir/main.cpp.o.requires:
-
-.PHONY : src/CMakeFiles/Pool.dir/main.cpp.o.requires
-
-src/CMakeFiles/Pool.dir/main.cpp.o.provides: src/CMakeFiles/Pool.dir/main.cpp.o.requires
-	$(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/main.cpp.o.provides.build
-.PHONY : src/CMakeFiles/Pool.dir/main.cpp.o.provides
-
-src/CMakeFiles/Pool.dir/main.cpp.o.provides.build: src/CMakeFiles/Pool.dir/main.cpp.o
-
-
 # Object files for target Pool
 Pool_OBJECTS = \
 "CMakeFiles/Pool.dir/connect.cpp.o" \
-"CMakeFiles/Pool.dir/connect_pool.cpp.o" \
-"CMakeFiles/Pool.dir/main.cpp.o"
+"CMakeFiles/Pool.dir/connect_pool.cpp.o"
 
 # External object files for target Pool
 Pool_EXTERNAL_OBJECTS =
 
 ../lib/libPool.so: src/CMakeFiles/Pool.dir/connect.cpp.o
 ../lib/libPool.so: src/CMakeFiles/Pool.dir/connect_pool.cpp.o
-../lib/libPool.so: src/CMakeFiles/Pool.dir/main.cpp.o
 ../lib/libPool.so: src/CMakeFiles/Pool.dir/build.make
 ../lib/libPool.so: src/CMakeFiles/Pool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ik/桌面/SQL_connect_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library ../../lib/libPool.so"
-	cd /home/ik/桌面/SQL_connect_pool/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pool.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library ../../lib/libPool.so"
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/Pool.dir/build: ../lib/libPool.so
@@ -153,15 +127,14 @@ src/CMakeFiles/Pool.dir/build: ../lib/libPool.so
 
 src/CMakeFiles/Pool.dir/requires: src/CMakeFiles/Pool.dir/connect.cpp.o.requires
 src/CMakeFiles/Pool.dir/requires: src/CMakeFiles/Pool.dir/connect_pool.cpp.o.requires
-src/CMakeFiles/Pool.dir/requires: src/CMakeFiles/Pool.dir/main.cpp.o.requires
 
 .PHONY : src/CMakeFiles/Pool.dir/requires
 
 src/CMakeFiles/Pool.dir/clean:
-	cd /home/ik/桌面/SQL_connect_pool/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Pool.dir/cmake_clean.cmake
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src && $(CMAKE_COMMAND) -P CMakeFiles/Pool.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/Pool.dir/clean
 
 src/CMakeFiles/Pool.dir/depend:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ik/桌面/SQL_connect_pool /home/ik/桌面/SQL_connect_pool/src /home/ik/桌面/SQL_connect_pool/build /home/ik/桌面/SQL_connect_pool/build/src /home/ik/桌面/SQL_connect_pool/build/src/CMakeFiles/Pool.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src/CMakeFiles/Pool.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/Pool.dir/depend
 

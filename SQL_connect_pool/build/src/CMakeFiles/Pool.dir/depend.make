@@ -10,7 +10,3 @@ src/CMakeFiles/Pool.dir/connect_pool.cpp.o: ../include/connect_pool.hpp
 src/CMakeFiles/Pool.dir/connect_pool.cpp.o: ../include/public.hpp
 src/CMakeFiles/Pool.dir/connect_pool.cpp.o: ../src/connect_pool.cpp
 
-src/CMakeFiles/Pool.dir/main.cpp.o: ../include/connect.hpp
-src/CMakeFiles/Pool.dir/main.cpp.o: ../include/connect_pool.hpp
-src/CMakeFiles/Pool.dir/main.cpp.o: ../src/main.cpp
-

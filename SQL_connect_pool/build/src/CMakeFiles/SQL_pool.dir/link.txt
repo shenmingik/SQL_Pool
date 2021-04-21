@@ -1,1 +1,0 @@
-/usr/bin/g++-7  -g -g  -rdynamic CMakeFiles/SQL_pool.dir/connect.cpp.o CMakeFiles/SQL_pool.dir/connect_pool.cpp.o CMakeFiles/SQL_pool.dir/main.cpp.o  -o ../../bin/SQL_pool 

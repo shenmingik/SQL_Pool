@@ -1,1 +1,1 @@
-/usr/bin/g++-7 -fPIC  -g -std=c++11 -fPIC -g  -shared -Wl,-soname,libPool.so -o ../../lib/libPool.so CMakeFiles/Pool.dir/connect.cpp.o CMakeFiles/Pool.dir/connect_pool.cpp.o CMakeFiles/Pool.dir/main.cpp.o 
+/usr/bin/c++ -fPIC  -g -std=c++11 -fPIC  -shared -Wl,-soname,libPool.so -o ../../lib/libPool.so CMakeFiles/Pool.dir/connect.cpp.o CMakeFiles/Pool.dir/connect_pool.cpp.o 

@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Pool.dir/connect.cpp.o"
   "CMakeFiles/Pool.dir/connect_pool.cpp.o"
-  "CMakeFiles/Pool.dir/main.cpp.o"
   "../../lib/libPool.pdb"
   "../../lib/libPool.so"
 )

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(Pool)
+project(pool)
 
 # 设置so库生成路径
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

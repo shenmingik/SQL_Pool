@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ik/桌面/SQL_connect_pool
+CMAKE_SOURCE_DIR = /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ik/桌面/SQL_connect_pool/build
+CMAKE_BINARY_DIR = /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ik/桌面/SQL_connect_pool/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ik/桌面/SQL_connect_pool/build/CMakeFiles /home/ik/桌面/SQL_connect_pool/build/src/CMakeFiles/progress.marks
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ik/桌面/SQL_connect_pool/build/CMakeFiles 0
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/CMakeFiles /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src/CMakeFiles/progress.marks
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/Pool.dir/rule:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Pool.dir/rule
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/Pool.dir/rule
 .PHONY : src/CMakeFiles/Pool.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ Pool: src/CMakeFiles/Pool.dir/rule
 
 # fast build rule for target.
 Pool/fast:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/build
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/build
 .PHONY : Pool/fast
 
 connect.o: connect.cpp.o
@@ -131,7 +131,7 @@ connect.o: connect.cpp.o
 
 # target to build an object file
 connect.cpp.o:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect.cpp.o
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect.cpp.o
 .PHONY : connect.cpp.o
 
 connect.i: connect.cpp.i
@@ -140,7 +140,7 @@ connect.i: connect.cpp.i
 
 # target to preprocess a source file
 connect.cpp.i:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect.cpp.i
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect.cpp.i
 .PHONY : connect.cpp.i
 
 connect.s: connect.cpp.s
@@ -149,7 +149,7 @@ connect.s: connect.cpp.s
 
 # target to generate assembly for a file
 connect.cpp.s:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect.cpp.s
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect.cpp.s
 .PHONY : connect.cpp.s
 
 connect_pool.o: connect_pool.cpp.o
@@ -158,7 +158,7 @@ connect_pool.o: connect_pool.cpp.o
 
 # target to build an object file
 connect_pool.cpp.o:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect_pool.cpp.o
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect_pool.cpp.o
 .PHONY : connect_pool.cpp.o
 
 connect_pool.i: connect_pool.cpp.i
@@ -167,7 +167,7 @@ connect_pool.i: connect_pool.cpp.i
 
 # target to preprocess a source file
 connect_pool.cpp.i:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect_pool.cpp.i
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect_pool.cpp.i
 .PHONY : connect_pool.cpp.i
 
 connect_pool.s: connect_pool.cpp.s
@@ -176,35 +176,8 @@ connect_pool.s: connect_pool.cpp.s
 
 # target to generate assembly for a file
 connect_pool.cpp.s:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect_pool.cpp.s
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/connect_pool.cpp.s
 .PHONY : connect_pool.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(MAKE) -f src/CMakeFiles/Pool.dir/build.make src/CMakeFiles/Pool.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -221,9 +194,6 @@ help:
 	@echo "... connect_pool.o"
 	@echo "... connect_pool.i"
 	@echo "... connect_pool.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 
@@ -235,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ik/桌面/SQL_connect_pool/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

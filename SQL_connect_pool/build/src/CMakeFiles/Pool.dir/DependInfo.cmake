@@ -4,9 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ik/桌面/SQL_connect_pool/src/connect.cpp" "/home/ik/桌面/SQL_connect_pool/build/src/CMakeFiles/Pool.dir/connect.cpp.o"
-  "/home/ik/桌面/SQL_connect_pool/src/connect_pool.cpp" "/home/ik/桌面/SQL_connect_pool/build/src/CMakeFiles/Pool.dir/connect_pool.cpp.o"
-  "/home/ik/桌面/SQL_connect_pool/src/main.cpp" "/home/ik/桌面/SQL_connect_pool/build/src/CMakeFiles/Pool.dir/main.cpp.o"
+  "/home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src/connect.cpp" "/home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src/CMakeFiles/Pool.dir/connect.cpp.o"
+  "/home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/src/connect_pool.cpp" "/home/ubuntu/mysql_pool/SQL_Pool/SQL_connect_pool/build/src/CMakeFiles/Pool.dir/connect_pool.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

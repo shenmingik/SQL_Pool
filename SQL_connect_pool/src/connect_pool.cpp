@@ -56,7 +56,10 @@ Connect_pool::Connect_pool()
     for (int i = 0; i < init_size_; i++)
     {
         Connect *p = new Connect();
-        p->connect(ip_, port_, user_, password_, dbname_);
+        if (p->connect(ip_, port_, user_, password_, dbname_)== false)
+        {
+            cout << "connect error!" << endl;
+        }
         p->refresh_aliveTime(); //刷新以下开始空闲的起始时间
         connect_queue_.push(p);
         connect_cnt_++;
